@@ -39,14 +39,13 @@ public class MenuRepete {
 			case 2:
 				System.out.println("--- TABUADA For ---");
 				
-				
+				int numero;
 				System.out.println("Informe um valor inteiro: ");
-				valor = tec.nextInt();
+				numero = tec.nextInt();
 				
-				int valor1;
-				for(int multiplicador1 = 0; multiplicador1 <= 10; multiplicador1++) {
-					System.out.println(valor1 + " x " + multiplicador1 + " = " + (valor1 * multiplicador1));
-					multiplicador1 ++;
+				for(int i = 0; i <= 10; i++) {
+					System.out.println(numero + " x " + i + " = " + (numero * i));
+				
 				}
 				break;
 			case 3:
